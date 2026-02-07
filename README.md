@@ -26,5 +26,7 @@ Os testes cobrem os seguintes cenários:
    
    Tecnologias utilizadas:
    Playwright
-   JavaScript/TypeScript
+   JavaScript
 
+**Observação importante:**
+Não foi possível realizar um fluxo completo de compra no e-commerce escolhido devido validações de usuário que ocorre em produção.
