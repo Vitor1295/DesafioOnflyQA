@@ -1,0 +1,88 @@
+{
+	"id": "13224ce7-3028-4307-a103-b173a6b2ba41",
+	"name": "DesafioOnflyQA",
+	"timestamp": "2026-02-07T19:59:36.851Z",
+	"collection_id": "52194642-a07f3056-d994-48f4-9b9e-cdfffe44fc52",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2026-02-07T19:59:33.180Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "51cfeb97-98f9-4674-bfa1-4a9900464c75",
+			"name": "Listar Usuários",
+			"url": "https://gorest.co.in/public/v2/users",
+			"time": 1392,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1392
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "95552f66-0d69-4655-ba1c-ef5a6c9c77a7",
+			"name": "Criar usuário",
+			"url": "https://gorest.co.in/public/v2/users",
+			"time": 534,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				534
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "040b3fd0-ad40-4c48-85ee-d8495762f937",
+			"name": "Deletar usuário",
+			"url": "https://gorest.co.in/public/v2/users/8361351",
+			"time": 591,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				591
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 2517,
+	"collection": {
+		"requests": [
+			{
+				"id": "51cfeb97-98f9-4674-bfa1-4a9900464c75",
+				"method": "GET"
+			},
+			{
+				"id": "95552f66-0d69-4655-ba1c-ef5a6c9c77a7",
+				"method": "POST"
+			},
+			{
+				"id": "040b3fd0-ad40-4c48-85ee-d8495762f937",
+				"method": "DELETE"
+			}
+		]
+	}
+}
